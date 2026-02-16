@@ -7,8 +7,7 @@
 
 Talk to your ComfyUI workflows. Comfy Pilot gives Claude Code direct access to see, edit, and run your workflows — with an embedded terminal right inside ComfyUI.
 
-https://github.com/user-attachments/assets/df7d61f0-f5fd-4579-8d96-f920b5191728
-
+![Comfy Pilot](thumbnail.jpg)
 
 ## Why?
 
@@ -52,6 +51,10 @@ Claude Code CLI will be installed automatically if not found.
 - **Embedded Terminal** - Full xterm.js terminal running Claude Code right inside ComfyUI
 - **Image Viewing** - Claude can see outputs from Preview Image and Save Image nodes
 - **Graph Editing** - Create, delete, move, and connect nodes programmatically
+
+## Demo
+
+https://github.com/user-attachments/assets/df7d61f0-f5fd-4579-8d96-f920b5191728
 
 ## Usage
 
