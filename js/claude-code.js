@@ -1096,8 +1096,8 @@ async function executeGraphCommand(command) {
                 // Queue prompt from frontend so it uses the browser's client_id
                 // This ensures preview images show up in the UI
                 try {
-                    await app.queuePrompt(0, 1);  // queue at front, 1 batch
-                    return { status: "queued" };
+                    const res = await app.queuePrompt(0, 1);  // queue at front, 1 batch
+                    return { status: "queued", prompt_id: res?.response?.prompt_id };
                 } catch (e) {
                     return { error: `Failed to queue prompt: ${e.message}` };
                 }
